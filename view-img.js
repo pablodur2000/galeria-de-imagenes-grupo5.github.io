@@ -13,9 +13,10 @@ button.addEventListener('click', () => {
 
     let imgSource = imgOriginal.getAttribute('src');
     imgLarge.setAttribute('src', imgSource);
-    imageLargeDiv.style.display = 'block'
+    imageLargeDiv.style.display = 'flex';
+    imageLargeDiv.style.backdropFilter = 'blur(6px)'
     closeButton.style.display = 'block';
-    
+
 
 });
 

@@ -1,6 +1,7 @@
 html{
     position: relative;
     z-index: 10;
+    padding: 0 150px;
 }
 
 body {
@@ -22,18 +23,18 @@ body {
 }
 
 .img-large{
-    width: 100%;
-    margin-top: 300px;
+    width: 60vw;
+    border: 5px solid green;
 }
 
 .view-img-div{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60vw;
+    width: 100vw;
+    height: 100vh;
     display: none;
     z-index: 10;
+    align-items: center;
+    justify-content: center;
 }
 
 .close-button{
@@ -44,10 +45,10 @@ body {
     height: 40px;
     font-size: 20px;
     display: none;
-    
+    z-index: 15;
 }
 
-.link-button, .view-img-button {
+.link-button, .view-img-button, .close-button{
     text-decoration: none;
     color: black;
     border: 1px solid gray;
@@ -56,4 +57,5 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
     margin-bottom: 20px;
+    cursor: pointer;
 }
