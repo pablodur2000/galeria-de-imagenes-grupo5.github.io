@@ -1,7 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    background-color: rgb(255, 255, 165);
+}
+
+.image{
+    border: 5px solid green;
+    border-radius: 10px;
+    height: 400px;
+}
+
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+}
+ h2 {
+    font-family: "Space Grotesk", sans-serif;
+ }
+
+ p {
+    font-family: "Space Grotesk", sans-serif;
+ }
+ 
+.link-button {
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 3px #888888;
+}
+
 html{
     position: relative;
     z-index: 10;
-    padding: 0 150px;
 }
 
 body {
@@ -48,7 +82,7 @@ body {
     z-index: 15;
 }
 
-.link-button, .view-img-button, .close-button{
+.link-button, .view-img-button {
     text-decoration: none;
     color: black;
     border: 1px solid gray;
@@ -59,3 +93,4 @@ body {
     margin-bottom: 20px;
     cursor: pointer;
 }
+
